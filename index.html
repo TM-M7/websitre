@@ -10,59 +10,66 @@
     <title>CARD</title>
 </head>
 <body>
-    <div class="Main-card">
-      <div>
-        <h1 class="text">HI</h1>
-        <img id="im" src="./scr/img/1231.png" alt="My photo">
+  <div class="container">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col">
+      <div class="Main-card container">
+        <div class="col">
+          <h1 class="text">HI</h1>
+          <img id="im" src="./scr/img/1231.png" alt="My photo">
+        </div>
+          <div class="col">
+            <h2 class="text">Infos</h2>
+              <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header other" id="headingOne">
+                      <button class="accordion-button other" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        About me.
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show other" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body other">
+                        My name is Heinrich, <br>
+                        I'm 17 jears old and I learn how to programm on difrent launguages <br>
+                        like: Html, CSS, PHP. <br>
+                        <a href="#" class="btn btn-secondary">More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item other">
+                    <h2 class="accordion-header other" id="headingTwo">
+                      <button class="accordion-button collapsed other" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Bio
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse other" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body other">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item other">
+                    <h2 class="accordion-header other" id="headingThree">
+                      <button class="accordion-button collapsed other" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        My CVV
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse other" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body other">
+                        <a class="btn btn-warning" href="#">Download</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div id="costel">
+            <h2 class="text">Socials</h2>
+            <a href="#" style="display: block; margin: 0 auto; text-align: center; padding-top: 30px; padding-bottom: 30px;"><img style="width: 50px;" src="./scr/img/iconmonstr-linkedin-3.svg" alt="..."></a>
+          </div>
       </div>
-        <div>
-          <h2 class="text">Infos</h2>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header other" id="headingOne">
-                    <button class="accordion-button other" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      About me.
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show other" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body other">
-                      My name is Heinrich, <br>
-                      I'm 17 jears old and I learn how to programm on difrent launguages <br>
-                      like: Html, CSS, PHP. <br>
-                      <a href="#" class="btn btn-secondary">More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item other">
-                  <h2 class="accordion-header other" id="headingTwo">
-                    <button class="accordion-button collapsed other" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Bio
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse other" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body other">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item other">
-                  <h2 class="accordion-header other" id="headingThree">
-                    <button class="accordion-button collapsed other" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      My CVV
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse other" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body other">
-                      <a class="btn btn-warning" href="#">Download</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-        <div id="costel">
-          <h2 class="text">Socials</h2>
-          <a href="#" style="display: block; margin: 0 auto; text-align: center; padding-top: 30px; padding-bottom: 30px;"><img style="width: 50px;" src="./scr/img/iconmonstr-linkedin-3.svg" alt="..."></a>
-        </div>
     </div>
+    <div class="col"></div>
+  </div>
 </body>
 </html>

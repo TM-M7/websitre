@@ -13,7 +13,7 @@ body {
     background-color: rgb(124, 123, 122);
     margin: 0 auto;
 }
-@media (min-width: 800px) {
+@media (min-width: 900px) {
     body {
         width: 1000px;
     }

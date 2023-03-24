@@ -8,7 +8,7 @@ body {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgb(95, 31, 138) 0%, rgba(219, 32, 32, 0.973) 48%, rgba(252,176,69,1) 65%, rgb(15, 47, 134) 87%);
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     body {
         width: 1000px;
     }

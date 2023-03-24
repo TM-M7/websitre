@@ -1,22 +1,24 @@
+html, body {overflow-x:hidden;}
 :root {
     position: relative;
 }
 body {
+    
     margin: 50px;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgb(95, 31, 138) 0%, rgba(219, 32, 32, 0.973) 48%, rgba(252,176,69,1) 65%, rgb(15, 47, 134) 87%);
 }
-.Main-card {
-    display: block;
-    border-radius: 5%;
-    width: 650px;
-    background-color: rgb(124, 123, 122);
-    margin: 0 auto;
-}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     body {
         width: 1000px;
     }
+}
+.Main-card {
+    display: block;
+    border-radius: 10%;
+    width: 650px;
+    background-color: rgb(124, 123, 122);
+    margin: 0 auto;
 }
 .text{
     text-align: center;
